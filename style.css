@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(135deg, #0f0f0f, #1c1c1c, #111);
+    color: white;
+}
+.stSelectbox label {
+    font-size: 18px;
+    color: #E50914;
+}
+.stButton>button {
+    background-color: #E50914;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.stButton>button:hover {
+    background-color: #b20710;
+    transform: scale(1.05);
+}
+.movie-card {
+    background-color: #1c1c1c;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.7);
+}
+.movie-card img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
